@@ -1,0 +1,16 @@
+@font-face {
+font-family:'myfont';
+src: url('myfont.ttf');
+}
+#p1{
+  font-family: 'Lobster', cursive;
+}
+#p2{
+  font-family: 'Lobster', cursive;
+}
+
+body{
+  background-image: url(hd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
