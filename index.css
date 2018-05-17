@@ -1,4 +1,116 @@
 
+/*body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:lightblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*text animation*/
 p{
   color: #000;
   font-size: 20px;
@@ -6,15 +118,15 @@ p{
   white-space: nowrap;
   overflow: hidden;
   width: 50em;
-  animation: type 3s steps(60, end);
+  animation: type 3s steps(80, end);
 }
 
 p:nth-child(2){
-  animation: type2 3s steps(60, end);
+  animation: type2 3s steps(70, end);
 }
 
 p:nth-child(3){
-  animation: type3 6s steps(60, end);
+  animation: type3 6s steps(70, end);
 }margin
 
 @keyframes type{
@@ -40,3 +152,48 @@ p:nth-child(3){
 /*#cent{
   background-image: url(ct4.jpeg);
 }*/
+
+
+
+
+
+
+/*fontaws*/
+.fa {
+     padding: 20px;
+     font-size: 30px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     margin: 5px 2px;}
+
+  .fa    .fa-facebook {
+     background: #3B5998
+;
+     color: white;
+     color: white;
+   }    .fa-google {
+     background: #dd4b39
+;
+     color: white;
+   }    .fa-linkedin {
+     background: #007bb5
+;
+     color: white;
+   }    .fa-youtube {
+     background: #bb0000
+;
+     color: white;
+   }    .fa-instagram {
+     background: #125688
+;
+     color: white;
+   }    .fa-pinterest {
+     background: #cb2027
+;
+     color: white;
+   }    .fa-skype {
+     background: #00aff0
+;
+     color: white;
+   }
